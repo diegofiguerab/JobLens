@@ -94,7 +94,7 @@ def search_jobs():
 
     for job in jobs:
         if search in job["company"]:
-            print(f"{job['company']} - {job['position']} - {job['status']}")
+            print(f"\n{job['company']} - {job['position']} - {job['status']}")
 
 def save_jobs():
     with open("jobs.json", "w") as file:
