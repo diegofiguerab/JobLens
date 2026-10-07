@@ -1,10 +1,10 @@
 # JobLens
 
-JobLens is a job application tracker built with Python that helps users organize and manage their job and internship applications.
+JobLens is an internship application tracker built to help students organize and manage their internship search.
 
 ## Features
 
-- Add new job applications
+- Add new internship applications
 - View all applications
 - Update application status
 - Delete applications
