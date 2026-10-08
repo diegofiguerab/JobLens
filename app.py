@@ -1,11 +1,12 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to JobLens"
+    return render_template("index.html")
 
-@app.route("/applications")
-def applications():
-    return "JobLens Applications"
+@app.route("/internships")
+def internships():
+    return "JobLens Internships"
+
