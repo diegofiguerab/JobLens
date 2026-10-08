@@ -8,5 +8,5 @@ def home():
 
 @app.route("/internships")
 def internships():
-    return "JobLens Internships"
+    return render_template("internships.html")
 
