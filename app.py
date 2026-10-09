@@ -8,5 +8,6 @@ def home():
 
 @app.route("/internships")
 def internships():
-    return render_template("internships.html")
+    company = "Amazon"
+    return render_template("internships.html", company=company)
 
